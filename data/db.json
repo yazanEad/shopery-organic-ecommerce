@@ -1,0 +1,1351 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Organic Green Apples",
+      "description": "Crisp organic green apples with a bright tart flavor, ideal for snacking, salads, and fresh juices.",
+      "category": "Fruits & Vegetables",
+      "price": 4.99,
+      "discountPercentage": 8.5,
+      "rating": 4.8,
+      "stock": 86,
+      "tags": ["organic", "fruit", "apples", "fresh"],
+      "brand": "Shopery Organics",
+      "sku": "SHP-FV-0001",
+      "weight": 1,
+      "dimensions": {
+        "width": 12,
+        "height": 9,
+        "depth": 12
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very fresh and exactly as described.",
+          "date": "2026-07-06T09:00:00.000Z",
+          "reviewerName": "Emily Carter",
+          "reviewerEmail": "emily.carter@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000001",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0001"
+      },
+      "thumbnail": "/images/green-apples-with-leaf-large.jpg",
+      "images": [
+        "/images/green-apples-with-leaf-large.jpg",
+        "/images/green-apples-isolated-02.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Fresh Ripe Mango",
+      "description": "Sweet ripe mango with rich tropical aroma, perfect for smoothies, desserts, and fruit bowls.",
+      "category": "Fruits & Vegetables",
+      "price": 3.49,
+      "discountPercentage": 6.25,
+      "rating": 4.7,
+      "stock": 64,
+      "tags": ["fruit", "mango", "tropical", "fresh"],
+      "brand": "Shopery Organics",
+      "sku": "SHP-FV-0002",
+      "weight": 1,
+      "dimensions": {
+        "width": 10,
+        "height": 7,
+        "depth": 8
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great quality and careful packaging.",
+          "date": "2026-07-06T09:05:00.000Z",
+          "reviewerName": "Daniel Moore",
+          "reviewerEmail": "daniel.moore@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 2,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000002",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0002"
+      },
+      "thumbnail": "/images/mango-isolated.jpg",
+      "images": ["/images/mango-isolated.jpg", "/images/mango-halves-large.jpg"]
+    },
+    {
+      "id": 3,
+      "title": "Juicy Navel Oranges",
+      "description": "Naturally sweet oranges packed with citrus flavor and vitamin C for everyday healthy snacking.",
+      "category": "Fruits & Vegetables",
+      "price": 5.99,
+      "discountPercentage": 7.1,
+      "rating": 4.6,
+      "stock": 92,
+      "tags": ["fruit", "oranges", "citrus", "fresh"],
+      "brand": "Shopery Organics",
+      "sku": "SHP-FV-0003",
+      "weight": 2,
+      "dimensions": {
+        "width": 16,
+        "height": 11,
+        "depth": 16
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Good value and arrived in excellent condition.",
+          "date": "2026-07-06T09:10:00.000Z",
+          "reviewerName": "Sophia Bennett",
+          "reviewerEmail": "sophia.bennett@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000003",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0003"
+      },
+      "thumbnail": "/images/oranges-pile-large.jpg",
+      "images": [
+        "/images/oranges-pile-large.jpg",
+        "/images/orange-group-isolated.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Fresh Strawberries",
+      "description": "Bright red strawberries with natural sweetness, selected for desserts, smoothies, and breakfast bowls.",
+      "category": "Fruits & Vegetables",
+      "price": 6.49,
+      "discountPercentage": 9.4,
+      "rating": 4.8,
+      "stock": 38,
+      "tags": ["fruit", "strawberries", "berries", "fresh"],
+      "brand": "Shopery Organics",
+      "sku": "SHP-FV-0004",
+      "weight": 1,
+      "dimensions": {
+        "width": 14,
+        "height": 7,
+        "depth": 10
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Clean, fresh, and useful for weekly groceries.",
+          "date": "2026-07-06T09:15:00.000Z",
+          "reviewerName": "Liam Johnson",
+          "reviewerEmail": "liam.johnson@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000004",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0004"
+      },
+      "thumbnail": "/images/strawberry-isolated.jpg",
+      "images": ["/images/strawberry-isolated.jpg"]
+    },
+    {
+      "id": 5,
+      "title": "Blueberries Bowl Pack",
+      "description": "Fresh blueberries packed with antioxidants, ideal for oatmeal, yogurt, smoothies, and baking.",
+      "category": "Fruits & Vegetables",
+      "price": 7.25,
+      "discountPercentage": 5.8,
+      "rating": 4.7,
+      "stock": 42,
+      "tags": ["fruit", "blueberries", "berries", "fresh"],
+      "brand": "Shopery Organics",
+      "sku": "SHP-FV-0005",
+      "weight": 1,
+      "dimensions": {
+        "width": 11,
+        "height": 6,
+        "depth": 11
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "I would order this again.",
+          "date": "2026-07-06T09:20:00.000Z",
+          "reviewerName": "Olivia Harris",
+          "reviewerEmail": "olivia.harris@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000005",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0005"
+      },
+      "thumbnail": "/images/blueberries-bowl.jpg",
+      "images": ["/images/blueberries-bowl.jpg"]
+    },
+    {
+      "id": 6,
+      "title": "Coconut Halves",
+      "description": "Fresh coconut halves with naturally sweet flesh, suitable for desserts, smoothies, and tropical recipes.",
+      "category": "Fruits & Vegetables",
+      "price": 4.75,
+      "discountPercentage": 4.9,
+      "rating": 4.5,
+      "stock": 29,
+      "tags": ["fruit", "coconut", "tropical", "fresh"],
+      "brand": "Shopery Organics",
+      "sku": "SHP-FV-0006",
+      "weight": 2,
+      "dimensions": {
+        "width": 15,
+        "height": 9,
+        "depth": 15
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Nice quality for the price.",
+          "date": "2026-07-06T09:25:00.000Z",
+          "reviewerName": "Noah Wilson",
+          "reviewerEmail": "noah.wilson@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000006",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0006"
+      },
+      "thumbnail": "/images/coconut-halves.jpg",
+      "images": ["/images/coconut-halves.jpg"]
+    },
+    {
+      "id": 7,
+      "title": "Green Lemons",
+      "description": "Zesty green lemons with a sharp citrus aroma, great for drinks, dressings, marinades, and desserts.",
+      "category": "Fruits & Vegetables",
+      "price": 3.99,
+      "discountPercentage": 6.75,
+      "rating": 4.6,
+      "stock": 73,
+      "tags": ["fruit", "lemons", "citrus", "fresh"],
+      "brand": "Shopery Organics",
+      "sku": "SHP-FV-0007",
+      "weight": 1,
+      "dimensions": {
+        "width": 12,
+        "height": 8,
+        "depth": 12
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Fresh taste and fast grocery delivery.",
+          "date": "2026-07-06T09:30:00.000Z",
+          "reviewerName": "Ava Collins",
+          "reviewerEmail": "ava.collins@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000007",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0007"
+      },
+      "thumbnail": "/images/green-lemons-on-tree.jpg",
+      "images": ["/images/green-lemons-on-tree.jpg"]
+    },
+    {
+      "id": 8,
+      "title": "Fresh Broccoli Crown",
+      "description": "Firm green broccoli crown, excellent for steaming, roasting, stir-frying, and healthy meal prep.",
+      "category": "Fruits & Vegetables",
+      "price": 3.29,
+      "discountPercentage": 5.5,
+      "rating": 4.7,
+      "stock": 58,
+      "tags": ["vegetable", "broccoli", "green", "fresh"],
+      "brand": "Green Valley Farms",
+      "sku": "SHP-FV-0008",
+      "weight": 1,
+      "dimensions": {
+        "width": 13,
+        "height": 14,
+        "depth": 12
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very fresh and exactly as described.",
+          "date": "2026-07-06T09:35:00.000Z",
+          "reviewerName": "Emily Carter",
+          "reviewerEmail": "emily.carter@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000008",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0008"
+      },
+      "thumbnail": "/images/broccoli-isolated.jpg",
+      "images": ["/images/broccoli-isolated.jpg"]
+    },
+    {
+      "id": 9,
+      "title": "Organic Carrots",
+      "description": "Sweet crunchy carrots grown for everyday cooking, salads, roasting, juicing, and lunchbox snacks.",
+      "category": "Fruits & Vegetables",
+      "price": 2.99,
+      "discountPercentage": 7.9,
+      "rating": 4.6,
+      "stock": 95,
+      "tags": ["vegetable", "carrots", "organic", "fresh"],
+      "brand": "Green Valley Farms",
+      "sku": "SHP-FV-0009",
+      "weight": 1,
+      "dimensions": {
+        "width": 18,
+        "height": 6,
+        "depth": 10
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great quality and careful packaging.",
+          "date": "2026-07-06T09:40:00.000Z",
+          "reviewerName": "Daniel Moore",
+          "reviewerEmail": "daniel.moore@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000009",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0009"
+      },
+      "thumbnail": "/images/carrots-closeup.jpg",
+      "images": ["/images/carrots-closeup.jpg"]
+    },
+    {
+      "id": 10,
+      "title": "White Cauliflower Head",
+      "description": "Fresh cauliflower head with a mild flavor, great for roasting, soups, low-carb rice, and gratins.",
+      "category": "Fruits & Vegetables",
+      "price": 4.25,
+      "discountPercentage": 6.1,
+      "rating": 4.5,
+      "stock": 44,
+      "tags": ["vegetable", "cauliflower", "fresh", "organic"],
+      "brand": "Green Valley Farms",
+      "sku": "SHP-FV-0010",
+      "weight": 2,
+      "dimensions": {
+        "width": 16,
+        "height": 14,
+        "depth": 16
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Good value and arrived in excellent condition.",
+          "date": "2026-07-06T09:45:00.000Z",
+          "reviewerName": "Sophia Bennett",
+          "reviewerEmail": "sophia.bennett@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000010",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0010"
+      },
+      "thumbnail": "/images/cauliflower-isolated-large.jpg",
+      "images": ["/images/cauliflower-isolated-large.jpg"]
+    },
+    {
+      "id": 11,
+      "title": "Sweet Corn Cobs",
+      "description": "Fresh sweet corn cobs with tender kernels, perfect for grilling, boiling, soups, and summer sides.",
+      "category": "Fruits & Vegetables",
+      "price": 3.75,
+      "discountPercentage": 8.25,
+      "rating": 4.7,
+      "stock": 67,
+      "tags": ["vegetable", "corn", "fresh", "sweet"],
+      "brand": "Green Valley Farms",
+      "sku": "SHP-FV-0011",
+      "weight": 2,
+      "dimensions": {
+        "width": 20,
+        "height": 8,
+        "depth": 12
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Clean, fresh, and useful for weekly groceries.",
+          "date": "2026-07-06T09:50:00.000Z",
+          "reviewerName": "Liam Johnson",
+          "reviewerEmail": "liam.johnson@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000011",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0011"
+      },
+      "thumbnail": "/images/corn-cobs-02.jpg",
+      "images": ["/images/corn-cobs-02.jpg"]
+    },
+    {
+      "id": 12,
+      "title": "Fresh Cucumbers",
+      "description": "Cool crisp cucumbers for salads, sandwiches, pickling, detox water, and fresh vegetable platters.",
+      "category": "Fruits & Vegetables",
+      "price": 2.79,
+      "discountPercentage": 5.4,
+      "rating": 4.6,
+      "stock": 88,
+      "tags": ["vegetable", "cucumber", "fresh", "green"],
+      "brand": "Green Valley Farms",
+      "sku": "SHP-FV-0012",
+      "weight": 1,
+      "dimensions": {
+        "width": 19,
+        "height": 6,
+        "depth": 9
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "I would order this again.",
+          "date": "2026-07-06T09:55:00.000Z",
+          "reviewerName": "Olivia Harris",
+          "reviewerEmail": "olivia.harris@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 2,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000012",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0012"
+      },
+      "thumbnail": "/images/cucumbers-isolated-02.jpg",
+      "images": [
+        "/images/cucumbers-isolated-02.jpg",
+        "/images/cucumber-slices-dark.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Fresh Eggplant",
+      "description": "Glossy eggplant with tender flesh, suitable for grilling, roasting, stews, dips, and Mediterranean dishes.",
+      "category": "Fruits & Vegetables",
+      "price": 3.59,
+      "discountPercentage": 4.8,
+      "rating": 4.4,
+      "stock": 36,
+      "tags": ["vegetable", "eggplant", "fresh", "organic"],
+      "brand": "Green Valley Farms",
+      "sku": "SHP-FV-0013",
+      "weight": 1,
+      "dimensions": {
+        "width": 11,
+        "height": 17,
+        "depth": 10
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Nice quality for the price.",
+          "date": "2026-07-06T10:00:00.000Z",
+          "reviewerName": "Noah Wilson",
+          "reviewerEmail": "noah.wilson@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000013",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0013"
+      },
+      "thumbnail": "/images/eggplant-isolated.jpg",
+      "images": ["/images/eggplant-isolated.jpg"]
+    },
+    {
+      "id": 14,
+      "title": "Green Lettuce Head",
+      "description": "Fresh green lettuce head with crisp leaves for salads, wraps, burgers, and healthy side dishes.",
+      "category": "Fruits & Vegetables",
+      "price": 2.99,
+      "discountPercentage": 6.3,
+      "rating": 4.7,
+      "stock": 52,
+      "tags": ["vegetable", "lettuce", "leafy-greens", "fresh"],
+      "brand": "Green Valley Farms",
+      "sku": "SHP-FV-0014",
+      "weight": 1,
+      "dimensions": {
+        "width": 15,
+        "height": 12,
+        "depth": 15
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Fresh taste and fast grocery delivery.",
+          "date": "2026-07-06T10:05:00.000Z",
+          "reviewerName": "Ava Collins",
+          "reviewerEmail": "ava.collins@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000014",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0014"
+      },
+      "thumbnail": "/images/green-lettuce-head.jpg",
+      "images": ["/images/green-lettuce-head.jpg"]
+    },
+    {
+      "id": 15,
+      "title": "Napa Cabbage",
+      "description": "Tender napa cabbage with mild flavor, ideal for stir-fries, soups, salads, and homemade kimchi.",
+      "category": "Fruits & Vegetables",
+      "price": 3.89,
+      "discountPercentage": 5.95,
+      "rating": 4.5,
+      "stock": 47,
+      "tags": ["vegetable", "cabbage", "leafy-greens", "fresh"],
+      "brand": "Green Valley Farms",
+      "sku": "SHP-FV-0015",
+      "weight": 2,
+      "dimensions": {
+        "width": 14,
+        "height": 22,
+        "depth": 12
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very fresh and exactly as described.",
+          "date": "2026-07-06T10:10:00.000Z",
+          "reviewerName": "Emily Carter",
+          "reviewerEmail": "emily.carter@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000015",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0015"
+      },
+      "thumbnail": "/images/napa-cabbage-head.jpg",
+      "images": [
+        "/images/napa-cabbage-head.jpg",
+        "/images/napa-cabbage-head-02.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Fresh Okra",
+      "description": "Fresh green okra pods selected for stews, roasting, frying, and traditional vegetable recipes.",
+      "category": "Fruits & Vegetables",
+      "price": 4.19,
+      "discountPercentage": 7.45,
+      "rating": 4.4,
+      "stock": 31,
+      "tags": ["vegetable", "okra", "fresh", "green"],
+      "brand": "Green Valley Farms",
+      "sku": "SHP-FV-0016",
+      "weight": 1,
+      "dimensions": {
+        "width": 14,
+        "height": 7,
+        "depth": 10
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Great quality and careful packaging.",
+          "date": "2026-07-06T10:15:00.000Z",
+          "reviewerName": "Daniel Moore",
+          "reviewerEmail": "daniel.moore@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000016",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0016"
+      },
+      "thumbnail": "/images/okra-isolated-02.jpg",
+      "images": ["/images/okra-isolated-02.jpg"]
+    },
+    {
+      "id": 17,
+      "title": "Farm Potatoes",
+      "description": "Versatile farm potatoes with earthy flavor, suitable for baking, frying, mashing, and soups.",
+      "category": "Fruits & Vegetables",
+      "price": 4.49,
+      "discountPercentage": 9.2,
+      "rating": 4.6,
+      "stock": 120,
+      "tags": ["vegetable", "potatoes", "root-vegetables", "fresh"],
+      "brand": "Green Valley Farms",
+      "sku": "SHP-FV-0017",
+      "weight": 3,
+      "dimensions": {
+        "width": 22,
+        "height": 12,
+        "depth": 18
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Good value and arrived in excellent condition.",
+          "date": "2026-07-06T10:20:00.000Z",
+          "reviewerName": "Sophia Bennett",
+          "reviewerEmail": "sophia.bennett@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000017",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0017"
+      },
+      "thumbnail": "/images/potatoes-isolated.jpg",
+      "images": ["/images/potatoes-isolated.jpg"]
+    },
+    {
+      "id": 18,
+      "title": "Fresh Red Tomatoes",
+      "description": "Ripe red tomatoes with balanced sweetness and acidity for salads, sauces, sandwiches, and cooking.",
+      "category": "Fruits & Vegetables",
+      "price": 3.99,
+      "discountPercentage": 8.1,
+      "rating": 4.7,
+      "stock": 78,
+      "tags": ["vegetable", "tomatoes", "fresh", "salad"],
+      "brand": "Green Valley Farms",
+      "sku": "SHP-FV-0018",
+      "weight": 2,
+      "dimensions": {
+        "width": 16,
+        "height": 10,
+        "depth": 14
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Clean, fresh, and useful for weekly groceries.",
+          "date": "2026-07-06T10:25:00.000Z",
+          "reviewerName": "Liam Johnson",
+          "reviewerEmail": "liam.johnson@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000018",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0018"
+      },
+      "thumbnail": "/images/tomatoes-sliced-whole-02.jpg",
+      "images": [
+        "/images/tomatoes-sliced-whole-02.jpg",
+        "/images/tomatoes-dark-background.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Colorful Mini Peppers",
+      "description": "Sweet colorful mini peppers with a crisp bite, perfect for salads, roasting, lunchboxes, and snacks.",
+      "category": "Fruits & Vegetables",
+      "price": 5.79,
+      "discountPercentage": 6.85,
+      "rating": 4.8,
+      "stock": 43,
+      "tags": ["vegetable", "peppers", "fresh", "sweet"],
+      "brand": "Green Valley Farms",
+      "sku": "SHP-FV-0019",
+      "weight": 1,
+      "dimensions": {
+        "width": 18,
+        "height": 8,
+        "depth": 12
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "I would order this again.",
+          "date": "2026-07-06T10:30:00.000Z",
+          "reviewerName": "Olivia Harris",
+          "reviewerEmail": "olivia.harris@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000019",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0019"
+      },
+      "thumbnail": "/images/colorful-mini-peppers-yellow-large.jpg",
+      "images": [
+        "/images/colorful-mini-peppers-yellow-large.jpg",
+        "/images/red-bell-peppers-large.jpg",
+        "/images/green-bell-peppers-large.jpg"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Green Chili Peppers",
+      "description": "Fresh green chili peppers with bold heat, ideal for sauces, marinades, stir-fries, and spicy dishes.",
+      "category": "Fruits & Vegetables",
+      "price": 2.89,
+      "discountPercentage": 4.5,
+      "rating": 4.5,
+      "stock": 55,
+      "tags": ["vegetable", "chili", "spicy", "fresh"],
+      "brand": "Green Valley Farms",
+      "sku": "SHP-FV-0020",
+      "weight": 1,
+      "dimensions": {
+        "width": 16,
+        "height": 5,
+        "depth": 9
+      },
+      "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
+      "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Nice quality for the price.",
+          "date": "2026-07-06T10:35:00.000Z",
+          "reviewerName": "Noah Wilson",
+          "reviewerEmail": "noah.wilson@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled produce",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000020",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-FV-0020"
+      },
+      "thumbnail": "/images/green-chili-wood.jpg",
+      "images": [
+        "/images/green-chili-wood.jpg",
+        "/images/green-chili-peppers.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Organic Spinach Leaves",
+      "description": "Tender organic spinach leaves for salads, smoothies, sautés, omelets, and nutrient-rich meals.",
+      "category": "Organic Foods",
+      "price": 4.59,
+      "discountPercentage": 7.6,
+      "rating": 4.7,
+      "stock": 34,
+      "tags": ["organic", "spinach", "leafy-greens", "healthy"],
+      "brand": "Shopery Organics",
+      "sku": "SHP-OF-0021",
+      "weight": 1,
+      "dimensions": {
+        "width": 18,
+        "height": 6,
+        "depth": 14
+      },
+      "warrantyInformation": "Quality guaranteed until expiry date",
+      "shippingInformation": "Ships in standard grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Fresh taste and fast grocery delivery.",
+          "date": "2026-07-06T10:40:00.000Z",
+          "reviewerName": "Ava Collins",
+          "reviewerEmail": "ava.collins@example.com"
+        }
+      ],
+      "returnPolicy": "Return accepted within 7 days if unopened and undamaged",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000021",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-OF-0021"
+      },
+      "thumbnail": "/images/spinach-leaves-texture.jpg",
+      "images": [
+        "/images/spinach-leaves-texture.jpg",
+        "/images/leafy-greens-texture.jpg"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Ready Fresh Salad Bowl",
+      "description": "Prepared green salad bowl with fresh vegetables, suitable for a quick lunch or healthy side meal.",
+      "category": "Organic Foods",
+      "price": 8.99,
+      "discountPercentage": 10.2,
+      "rating": 4.6,
+      "stock": 22,
+      "tags": ["organic", "salad", "ready-to-eat", "healthy"],
+      "brand": "Shopery Organics",
+      "sku": "SHP-OF-0022",
+      "weight": 1,
+      "dimensions": {
+        "width": 18,
+        "height": 8,
+        "depth": 18
+      },
+      "warrantyInformation": "Quality guaranteed until expiry date",
+      "shippingInformation": "Ships in standard grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very fresh and exactly as described.",
+          "date": "2026-07-06T10:45:00.000Z",
+          "reviewerName": "Emily Carter",
+          "reviewerEmail": "emily.carter@example.com"
+        }
+      ],
+      "returnPolicy": "Return accepted within 7 days if unopened and undamaged",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000022",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-OF-0022"
+      },
+      "thumbnail": "/images/salad-bowl-overhead.jpg",
+      "images": [
+        "/images/salad-bowl-overhead.jpg",
+        "/images/salad-bowl-green-background.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Organic Honey Jam Jars",
+      "description": "Assorted honey and fruit jam jars made for toast, pastries, yogurt bowls, and breakfast spreads.",
+      "category": "Organic Foods",
+      "price": 12.99,
+      "discountPercentage": 11.5,
+      "rating": 4.8,
+      "stock": 39,
+      "tags": ["organic", "honey", "jam", "pantry"],
+      "brand": "Nature Jar",
+      "sku": "SHP-OF-0023",
+      "weight": 2,
+      "dimensions": {
+        "width": 20,
+        "height": 12,
+        "depth": 10
+      },
+      "warrantyInformation": "Quality guaranteed until expiry date",
+      "shippingInformation": "Ships in standard grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great quality and careful packaging.",
+          "date": "2026-07-06T10:50:00.000Z",
+          "reviewerName": "Daniel Moore",
+          "reviewerEmail": "daniel.moore@example.com"
+        }
+      ],
+      "returnPolicy": "Return accepted within 7 days if unopened and undamaged",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000023",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-OF-0023"
+      },
+      "thumbnail": "/images/honey-jam-jars.png",
+      "images": ["/images/honey-jam-jars.png"]
+    },
+    {
+      "id": 24,
+      "title": "Cold Pressed Cooking Oil",
+      "description": "Golden cold pressed cooking oil for sautéing, dressings, roasting, and everyday kitchen preparation.",
+      "category": "Organic Foods",
+      "price": 10.49,
+      "discountPercentage": 8.9,
+      "rating": 4.6,
+      "stock": 61,
+      "tags": ["organic", "cooking-oil", "pantry", "kitchen"],
+      "brand": "Pure Harvest",
+      "sku": "SHP-OF-0024",
+      "weight": 2,
+      "dimensions": {
+        "width": 8,
+        "height": 28,
+        "depth": 8
+      },
+      "warrantyInformation": "Quality guaranteed until expiry date",
+      "shippingInformation": "Ships in standard grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Good value and arrived in excellent condition.",
+          "date": "2026-07-06T10:55:00.000Z",
+          "reviewerName": "Sophia Bennett",
+          "reviewerEmail": "sophia.bennett@example.com"
+        }
+      ],
+      "returnPolicy": "Return accepted within 7 days if unopened and undamaged",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000024",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-OF-0024"
+      },
+      "thumbnail": "/images/cooking-oil-bottle-yellow-tall.jpg",
+      "images": [
+        "/images/cooking-oil-bottle-yellow-tall.jpg",
+        "/images/cooking-oil-bottles.png"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Organic Rice Grocery Pack",
+      "description": "Premium organic rice pack for daily cooking, meal prep, bowls, soups, and family pantry stocking.",
+      "category": "Organic Foods",
+      "price": 9.75,
+      "discountPercentage": 6.4,
+      "rating": 4.5,
+      "stock": 75,
+      "tags": ["organic", "rice", "pantry", "grains"],
+      "brand": "Pure Harvest",
+      "sku": "SHP-OF-0025",
+      "weight": 5,
+      "dimensions": {
+        "width": 24,
+        "height": 34,
+        "depth": 8
+      },
+      "warrantyInformation": "Quality guaranteed until expiry date",
+      "shippingInformation": "Ships in standard grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Clean, fresh, and useful for weekly groceries.",
+          "date": "2026-07-06T11:00:00.000Z",
+          "reviewerName": "Liam Johnson",
+          "reviewerEmail": "liam.johnson@example.com"
+        }
+      ],
+      "returnPolicy": "Return accepted within 7 days if unopened and undamaged",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000025",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-OF-0025"
+      },
+      "thumbnail": "/images/rice-grocery-products.png",
+      "images": ["/images/rice-grocery-products.png"]
+    },
+    {
+      "id": 26,
+      "title": "Assorted Organic Grocery Set",
+      "description": "Assorted packaged organic grocery essentials for pantry refills, cooking, snacks, and household meals.",
+      "category": "Organic Foods",
+      "price": 18.99,
+      "discountPercentage": 12.35,
+      "rating": 4.7,
+      "stock": 28,
+      "tags": ["organic", "groceries", "pantry", "assorted"],
+      "brand": "Shopery Organics",
+      "sku": "SHP-OF-0026",
+      "weight": 6,
+      "dimensions": {
+        "width": 32,
+        "height": 24,
+        "depth": 18
+      },
+      "warrantyInformation": "Quality guaranteed until expiry date",
+      "shippingInformation": "Ships in standard grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "I would order this again.",
+          "date": "2026-07-06T11:05:00.000Z",
+          "reviewerName": "Olivia Harris",
+          "reviewerEmail": "olivia.harris@example.com"
+        }
+      ],
+      "returnPolicy": "Return accepted within 7 days if unopened and undamaged",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000026",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-OF-0026"
+      },
+      "thumbnail": "/images/packaged-groceries-set.png",
+      "images": [
+        "/images/packaged-groceries-set.png",
+        "/images/packaged-groceries-assorted.png",
+        "/images/packaged-groceries-bags.png"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Assorted Butter Cookies",
+      "description": "Crisp assorted cookies with a buttery texture, made for tea time, desserts, and family snacks.",
+      "category": "Bakery",
+      "price": 6.99,
+      "discountPercentage": 7.8,
+      "rating": 4.4,
+      "stock": 48,
+      "tags": ["bakery", "cookies", "snacks", "sweet"],
+      "brand": "Golden Oven",
+      "sku": "SHP-BK-0027",
+      "weight": 1,
+      "dimensions": {
+        "width": 20,
+        "height": 7,
+        "depth": 16
+      },
+      "warrantyInformation": "Quality guaranteed until expiry date",
+      "shippingInformation": "Ships in standard grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Nice quality for the price.",
+          "date": "2026-07-06T11:10:00.000Z",
+          "reviewerName": "Noah Wilson",
+          "reviewerEmail": "noah.wilson@example.com"
+        }
+      ],
+      "returnPolicy": "Return accepted within 7 days if unopened and undamaged",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000027",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-BK-0027"
+      },
+      "thumbnail": "/images/assorted-cookies-02.jpg",
+      "images": ["/images/assorted-cookies-02.jpg"]
+    },
+    {
+      "id": 28,
+      "title": "Fresh Whole Milk Bottle",
+      "description": "Fresh whole milk with a smooth creamy taste, suitable for cereal, coffee, baking, and daily nutrition.",
+      "category": "Dairy Products",
+      "price": 4.29,
+      "discountPercentage": 5.7,
+      "rating": 4.6,
+      "stock": 33,
+      "tags": ["dairy", "milk", "fresh", "refrigerated"],
+      "brand": "Dairy Meadow",
+      "sku": "SHP-DP-0028",
+      "weight": 2,
+      "dimensions": {
+        "width": 9,
+        "height": 26,
+        "depth": 9
+      },
+      "warrantyInformation": "Freshness guaranteed until printed use-by date",
+      "shippingInformation": "Ships chilled in insulated grocery packaging",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Fresh taste and fast grocery delivery.",
+          "date": "2026-07-06T11:15:00.000Z",
+          "reviewerName": "Ava Collins",
+          "reviewerEmail": "ava.collins@example.com"
+        }
+      ],
+      "returnPolicy": "Refund available within 24 hours for damaged or spoiled dairy products",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000028",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-DP-0028"
+      },
+      "thumbnail": "/images/milk-splash-bottle-wide.jpg",
+      "images": ["/images/milk-splash-bottle-wide.jpg"]
+    },
+    {
+      "id": 29,
+      "title": "Classic Cola Drink",
+      "description": "Refreshing cola drink served chilled, ideal for parties, quick meals, and casual grocery orders.",
+      "category": "Beverages",
+      "price": 2.49,
+      "discountPercentage": 4.25,
+      "rating": 4.2,
+      "stock": 96,
+      "tags": ["beverage", "cola", "drink", "refreshing"],
+      "brand": "CoolFizz",
+      "sku": "SHP-BV-0029",
+      "weight": 1,
+      "dimensions": {
+        "width": 8,
+        "height": 18,
+        "depth": 8
+      },
+      "warrantyInformation": "Quality guaranteed until expiry date",
+      "shippingInformation": "Ships in standard grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Very fresh and exactly as described.",
+          "date": "2026-07-06T11:20:00.000Z",
+          "reviewerName": "Emily Carter",
+          "reviewerEmail": "emily.carter@example.com"
+        }
+      ],
+      "returnPolicy": "Return accepted within 7 days if unopened and undamaged",
+      "minimumOrderQuantity": 2,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000029",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-BV-0029"
+      },
+      "thumbnail": "/images/cola-glass-ice-splash.jpg",
+      "images": ["/images/cola-glass-ice-splash.jpg"]
+    },
+    {
+      "id": 30,
+      "title": "Orange Citrus Splash Drink",
+      "description": "Bright orange citrus beverage with a refreshing fruity taste, made for chilled serving and summer meals.",
+      "category": "Beverages",
+      "price": 3.25,
+      "discountPercentage": 6.6,
+      "rating": 4.5,
+      "stock": 72,
+      "tags": ["beverage", "orange", "citrus", "drink"],
+      "brand": "Citrus Grove",
+      "sku": "SHP-BV-0030",
+      "weight": 1,
+      "dimensions": {
+        "width": 8,
+        "height": 20,
+        "depth": 8
+      },
+      "warrantyInformation": "Quality guaranteed until expiry date",
+      "shippingInformation": "Ships in standard grocery packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great quality and careful packaging.",
+          "date": "2026-07-06T11:25:00.000Z",
+          "reviewerName": "Daniel Moore",
+          "reviewerEmail": "daniel.moore@example.com"
+        }
+      ],
+      "returnPolicy": "Return accepted within 7 days if unopened and undamaged",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000030",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-BV-0030"
+      },
+      "thumbnail": "/images/orange-water-slices-blue.jpg",
+      "images": [
+        "/images/orange-water-slices-blue.jpg",
+        "/images/orange-ice-splash.jpg"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Natural Personal Care Set",
+      "description": "Daily personal care set with gentle formulas suited for eco-conscious bathroom and grooming routines.",
+      "category": "Beauty & Personal Care",
+      "price": 15.99,
+      "discountPercentage": 9.95,
+      "rating": 4.6,
+      "stock": 37,
+      "tags": ["personal-care", "beauty", "eco", "bathroom"],
+      "brand": "EcoCare Naturals",
+      "sku": "SHP-BP-0031",
+      "weight": 2,
+      "dimensions": {
+        "width": 22,
+        "height": 18,
+        "depth": 10
+      },
+      "warrantyInformation": "Quality guaranteed until expiry date",
+      "shippingInformation": "Ships in standard protective packaging within 24 hours",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Good value and arrived in excellent condition.",
+          "date": "2026-07-06T11:30:00.000Z",
+          "reviewerName": "Sophia Bennett",
+          "reviewerEmail": "sophia.bennett@example.com"
+        }
+      ],
+      "returnPolicy": "Return accepted within 14 days if unopened and undamaged",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2026-07-06T08:00:00.000Z",
+        "updatedAt": "2026-07-06T08:00:00.000Z",
+        "barcode": "8601000000031",
+        "qrCode": "https://dummyjson.com/qr-code?data=SHP-BP-0031"
+      },
+      "thumbnail": "/images/personal-care-products.png",
+      "images": ["/images/personal-care-products.png"]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fruits & Vegetables",
+      "slug": "fruits-and-vegetables",
+      "image": "/images/produce-basket-isolated-large.png"
+    },
+    {
+      "id": 2,
+      "name": "Organic Foods",
+      "slug": "organic-foods",
+      "image": "/images/packaged-groceries-set.png"
+    },
+    {
+      "id": 3,
+      "name": "Dairy Products",
+      "slug": "dairy-products",
+      "image": "/images/milk-splash-bottle-wide.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Beverages",
+      "slug": "beverages",
+      "image": "/images/orange-water-slices-blue.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Bakery",
+      "slug": "bakery",
+      "image": "/images/assorted-cookies-02.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Beauty & Personal Care",
+      "slug": "beauty-and-personal-care",
+      "image": "/images/personal-care-products.png"
+    }
+  ]
+}
