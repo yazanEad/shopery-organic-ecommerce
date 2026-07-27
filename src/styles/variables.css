@@ -9,7 +9,7 @@
   --color-primary-light: #e6f7e6;
 
   /* Secondary / accent colors */
-  --color-warning: #ff8a00;
+  --color-warning: #FCC900;
   --color-danger: #ea4b48;
   --color-sale: #ea4b48;
   --color-rating: #ff8a00;
@@ -122,13 +122,11 @@
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
   --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.12);
+  --shadow-testimonial-card: 0 8px 40px rgba(0, 0, 0, 0.08);
 
   /* Component tokens */
   --button-height-sm: 40px;
   --button-height-md: 45px;
   --button-height-lg: 51px;
-
-  --input-height: 45px;
-  --card-radius: var(--radius-lg);
-  --product-card-width: 264px;
+  --instagram-card-radius: 10px;
 }

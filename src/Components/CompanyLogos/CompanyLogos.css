@@ -1,0 +1,63 @@
+.company-logos__inner {
+  padding: var(--space-15) 0;
+}
+
+.company-logos__item {
+  display: flex;
+  height: var(--space-8);
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.company-logos__item:not(.is-highlighted):hover .company-logos__image {
+  filter: brightness(0) saturate(100%) invert(45%) sepia(97%) saturate(1812%)
+    hue-rotate(101deg) brightness(93%) contrast(104%);
+}
+
+.company-logos__separator {
+  width: 1px;
+  height: var(--space-8);
+  flex: 0 0 1px;
+  background-color: var(--color-border-light);
+
+}
+
+@media (max-width: 991.98px) {
+  .company-logos__item {
+    position: relative;
+  }
+
+  .company-logos__item::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: var(--space-8);
+    background-color: var(--color-border-light);
+    content: "";
+  }
+
+  .company-logos__item:nth-of-type(3n)::after {
+    display: none;
+  }
+
+  .company-logos__separator {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  .company-logos__item {
+    padding-inline: var(--space-4);
+  }
+
+  .company-logos__item::after {
+    display: none;
+  }
+
+  .company-logos__item:nth-of-type(odd)::after {
+    display: block;
+  }
+}

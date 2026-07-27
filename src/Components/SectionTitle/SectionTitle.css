@@ -1,0 +1,25 @@
+.section-title__dots {
+  
+  
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-1); */
+  margin-top: var(--space-2);
+  
+}
+
+.section-title__dots span {
+  display: inline-block;
+  
+  width: 12px;
+  height: 4px;
+  margin: 0 2px;
+  border-radius: var(--radius-xs);
+  background: var(--color-primary-soft);
+}
+
+.section-title__dots span.is-active {
+  width: 40px;
+  background: var(--color-primary);
+}

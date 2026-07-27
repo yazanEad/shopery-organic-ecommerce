@@ -43,7 +43,10 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 
+import { IoIosArrowDown } from "react-icons/io";
 export const shoperyIcons = {
+
+  IoIosArrowDown:IoIosArrowDown,
   // Header / Navigation
   search: PiMagnifyingGlass,
   wishlist: PiHeart,
