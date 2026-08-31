@@ -192,10 +192,10 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   color: var(--color-text-inverse);
-  font-size: var(--font-size-2xs);
+  font-size: var(--font-size-xs);
   font-weight: var(--font-weight-semibold);
   line-height: 1;
   background-color: var(--color-primary);

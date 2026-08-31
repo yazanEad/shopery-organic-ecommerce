@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { shoperyIcons } from "../../data/data";
 import "./Navigation.css";
 import { Link } from "react-router-dom";
+import { Category_Product_Context } from "../../context/Context";
 
 function NavbarTwo() {
   const LeafIcon = shoperyIcons.leaf;
@@ -14,6 +15,10 @@ function NavbarTwo() {
   // const DropdownIcon = shoperyIcons.dropdown;
   const PhoneIcon = shoperyIcons.phone;
 
+
+
+   
+
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   let navbarLinks = [
     { name: "Home", href: "/" },
@@ -24,8 +29,10 @@ function NavbarTwo() {
 
     { name: "About Us", href: "/about-us" },
 
-    { name: " Contact Us", href: "/contact-us" },
+    { name: "Contact Us", href: "/contact-us" },
   ];
+
+   let { cartItems } = useContext(Category_Product_Context);
 
   return (
     <nav className="navbar-two" aria-label="Main navigation">
@@ -75,14 +82,16 @@ function NavbarTwo() {
               <Account aria-hidden="true" />
             </button>
             <span className="navbar-two__divider" aria-hidden="true" />
-            <button
-              className="navbar-two__icon-button"
-              type="button"
-              aria-label="Shopping cart"
-            >
-              <CartIcon aria-hidden="true" />
-              <span className="navbar-two__badge">2</span>
-            </button>
+            <Link to="/shopping-cart">
+              <button
+                className="navbar-two__icon-button"
+                type="button"
+                aria-label="Shopping cart"
+              >
+                <CartIcon aria-hidden="true" />
+                <span className="navbar-two__badge">{cartItems.length}</span>
+              </button>
+            </Link>
             <div className="navbar-two__cart-total d-none d-sm-block">
               <span className="navbar-two__cart-label">Shopping cart:</span>
               <strong>$57.00</strong>

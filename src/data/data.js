@@ -26,6 +26,7 @@ import {
   PiQuotes,
   PiTrash,
   PiFunnel,
+  PiSlidersHorizontal,
   PiGridFour,
   PiListBullets,
   PiHouse,
@@ -72,6 +73,7 @@ export const shoperyIcons = {
 
   // Shop / Listing
   filter: PiFunnel,
+  filterControls: PiSlidersHorizontal,
   gridView: PiGridFour,
   listView: PiListBullets,
   next: PiArrowRight,

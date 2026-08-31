@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from "react";
+import { useContext} from "react";
 import Hero from "../../Components/Hero/Hero";
 import FeaturedProducts from "../../Components/FeaturedProducts/FeaturedProducts";
 import CategoryCard from "../../Components/Category/CategoryCard";
@@ -9,59 +9,12 @@ import PromotionBanners from "../../Components/PromotionBanners/PromotionBanners
 import ClientTestimonials from "../../Components/ClientTestimonials/ClientTestimonials";
 import CompanyLogos from "../../Components/CompanyLogos/CompanyLogos";
 import InstagramGallery from "../../Components/InstagramGallery/InstagramGallery";
-
+import {Category_Product_Context} from "../../context/Context"
 
 function Home() {
-  let [products, setProducts] = useState([]);
-  let [loading, setLoading] = useState(true);
-  let [error, setError] = useState(false);
-
-  useEffect(() => {
-    async function fetchProdect() {
-      try {
-        let response = await fetch("http://localhost:3000/products");
-        if (!response.ok) {
-          throw new Error("Failed to fetch products");
-        }
-        let data = await response.json();
-        setProducts(data);
-      } catch (error) {
-        setError(true);
-        console.log(error);
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    fetchProdect();
-  }, []);
-
-  let [categorys, setCategorys] = useState([]);
-
-  let [loadingCategory, setLoadingCategory] = useState(true);
-  let [errorCategory, setErrorCategory] = useState(false);
-
-  useEffect(() => {
-    async function dataCategory() {
-      try {
-        let responseDataCategory = await fetch(
-          "http://localhost:3000/categories",
-        );
-        if (!responseDataCategory.ok) {
-          throw new Error("Failed to fetch products");
-        }
-        let data = await responseDataCategory.json();
-
-        setCategorys(data);
-      } catch (error) {
-        setErrorCategory(true);
-        console.log(error);
-      } finally {
-        setLoadingCategory(false);
-      }
-    }
-    dataCategory();
-  }, []);
+  let { products, loading, error, categorys, loadingCategory, errorCategory } =
+    useContext(Category_Product_Context);
+  
 
   if (loading) {
     return <h1>جاري التحميل.........</h1>;
@@ -93,7 +46,7 @@ let newestProducts = products.slice(-5);
 
   // categorys
 
-  console.log(categorys);
+  // console.log(categorys);
   if (loadingCategory) {
     return <h2>جاري تحميل الفئاة</h2>;
   }

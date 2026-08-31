@@ -6,7 +6,10 @@ import NavbarOne from "./Components/Navigation/NavbarOne.jsx";
 import NavbarTwo from "./Components/Navigation/NavbarTwo.jsx";
 import Wishlist from "./pages/Wishlist/Wishlist.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
+import Cart from "./pages/Cart/Cart.jsx";
+
 function App() {
+
 
   return (
     <>
@@ -17,11 +20,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
-        <Route path="/ProductDetails" element={<ProductDetails />} />
+
+        <Route path="/shop/:productId" element={<ProductDetails />} />
+        {/* <Route path="/product/:id" element={<ProductDetails />} /> */}
         <Route path="/about-us" element="" />
         <Route path="/contact-us" element="" />
         <Route path="/blog" element="" />
         <Route path="/my-wishlist" element={<Wishlist />} />
+        <Route path="/shopping-cart" element={<Cart />} />
       </Routes>
       <Footer />
     </>

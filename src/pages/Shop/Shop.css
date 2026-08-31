@@ -1,0 +1,37 @@
+.shop-filters-panel {
+  --bs-offcanvas-width: min(90vw, 352px);
+  background-color: var(--color-bg-page);
+}
+
+.shop-filters-panel .offcanvas-header {
+  padding: var(--space-5);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.shop-filters-panel__title {
+  margin: 0;
+  color: var(--color-text-strong);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-body);
+}
+
+.shop-filters-panel .offcanvas-body {
+  padding: var(--space-5);
+}
+
+.shop-filters-backdrop {
+  padding: 0;
+  border: 0;
+}
+
+@media (min-width: 992px) {
+  .shop-filters-panel {
+    background-color: transparent;
+  }
+
+  .shop-filters-panel .offcanvas-body {
+    overflow: visible;
+    padding: 0;
+  }
+}

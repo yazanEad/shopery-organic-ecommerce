@@ -48,4 +48,5 @@ export const promotionBanners = [
     buttonLabel: "Shop Now",
     href: "/shop",
   },
+ 
 ];
