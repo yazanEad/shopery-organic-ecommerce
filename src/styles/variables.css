@@ -129,4 +129,14 @@
   --button-height-md: 45px;
   --button-height-lg: 51px;
   --instagram-card-radius: 10px;
+
+  /* Wishlist — Figma 460:42645 */
+  --font-wishlist: "Shopery Wishlist Poppins", var(--font-primary);
+  --color-wishlist-stock-bg: rgb(32 181 38 / 20%);
+  --color-wishlist-unavailable-bg: rgb(234 75 72 / 20%);
+  --wishlist-breadcrumb-overlay: linear-gradient(90deg, rgb(0 0 0 / 70%), transparent);
+  --wishlist-header-height: 46px;
+  --wishlist-cart-width: 146px;
+  --wishlist-social-gap: 5px;
+  --wishlist-header-tracking: 0.03em;
 }

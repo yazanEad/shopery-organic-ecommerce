@@ -4,9 +4,10 @@ import Shop from "./pages/Shop/Shop.jsx";
 import ProductDetails from "./pages/ProductDetails/ProductDetails.jsx";
 import NavbarOne from "./Components/Navigation/NavbarOne.jsx";
 import NavbarTwo from "./Components/Navigation/NavbarTwo.jsx";
-import Wishlist from "./pages/Wishlist/Wishlist.jsx";
+import Wishlist from "./pages/Wishlist/WishlistPage.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import Cart from "./pages/Cart/Cart.jsx";
+import WishlistPage from "./pages/Wishlist/WishlistPage.jsx";
 
 function App() {
 
@@ -26,7 +27,9 @@ function App() {
         <Route path="/about-us" element="" />
         <Route path="/contact-us" element="" />
         <Route path="/blog" element="" />
-        <Route path="/my-wishlist" element={<Wishlist />} />
+        {/* <Route path="/my-wishlist" element={<Wishlist />} /> */}
+        <Route path="/my-wishlist" element={<WishlistPage />} />
+
         <Route path="/shopping-cart" element={<Cart />} />
       </Routes>
       <Footer />

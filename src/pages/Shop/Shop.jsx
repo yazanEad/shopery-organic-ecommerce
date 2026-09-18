@@ -71,7 +71,7 @@ let filtersProducts = products.filter(prod =>{
 })
 
 
- console.log(filtersProducts);
+//  console.log(filtersProducts);
 
 
   return (

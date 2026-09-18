@@ -64,7 +64,7 @@
       },
       "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
       "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
-      "availabilityStatus": "In Stock",
+      "availabilityStatus": "Out of Stock",
       "reviews": [
         {
           "rating": 5,
@@ -313,7 +313,7 @@
       },
       "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
       "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
-      "availabilityStatus": "In Stock",
+      "availabilityStatus": "Out of Stock",
       "reviews": [
         {
           "rating": 5,
@@ -521,7 +521,7 @@
       },
       "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
       "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
-      "availabilityStatus": "In Stock",
+      "availabilityStatus": "Out of Stock",
       "reviews": [
         {
           "rating": 4,
@@ -688,7 +688,7 @@
       },
       "warrantyInformation": "Freshness guaranteed for 3 days after delivery",
       "shippingInformation": "Ships in refrigerated grocery packaging within 24 hours",
-      "availabilityStatus": "In Stock",
+      "availabilityStatus": "Out of Stock",
       "reviews": [
         {
           "rating": 5,
@@ -862,7 +862,7 @@
       },
       "warrantyInformation": "Quality guaranteed until expiry date",
       "shippingInformation": "Ships in standard grocery packaging within 24 hours",
-      "availabilityStatus": "In Stock",
+      "availabilityStatus": "Out of Stock",
       "reviews": [
         {
           "rating": 5,
@@ -950,7 +950,7 @@
       },
       "warrantyInformation": "Quality guaranteed until expiry date",
       "shippingInformation": "Ships in standard grocery packaging within 24 hours",
-      "availabilityStatus": "In Stock",
+      "availabilityStatus": "Out of Stock",
       "reviews": [
         {
           "rating": 5,
