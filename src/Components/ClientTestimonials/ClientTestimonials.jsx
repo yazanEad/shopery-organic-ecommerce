@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { shoperyIcons } from "../../data/data";
-import {
-  clientTestimonialSlides,
-} from "../../data/mockClientTestimonials";
+import { clientTestimonialSlides } from "../../data/mockClientTestimonials";
 import TestimonialCard from "./TestimonialCard";
 import "./ClientTestimonials.css";
 import SectionTitle from "../SectionTitle/SectionTitle";
 
-function ClientTestimonials({ slides = clientTestimonialSlides }) {
+function ClientTestimonials({
+  slides = clientTestimonialSlides,
+  variant = "default",
+}) {
   const [activeSlide, setActiveSlide] = useState(
     Math.min(2, slides.length - 1),
   );
@@ -35,9 +36,16 @@ function ClientTestimonials({ slides = clientTestimonialSlides }) {
     >
       <div className="container client-testimonials__container">
         <header className="client-testimonials__header d-flex align-items-center justify-content-between">
-
-          
-          <SectionTitle title="Client Testimonial" />
+          {variant === "about" ? (
+            <h2
+              id="client-testimonials-title"
+              className="client-testimonials__title"
+            >
+              Client Testimonial
+            </h2>
+          ) : (
+            <SectionTitle title="Client Testimonial" />
+          )}
 
           <div
             className="client-testimonials__controls d-flex"
@@ -73,23 +81,25 @@ function ClientTestimonials({ slides = clientTestimonialSlides }) {
           ))}
         </div>
 
-        <div
-          className="client-testimonials__tracker d-flex justify-content-center"
-          aria-label="Choose testimonial slide"
-        >
-          {slides.map((slide, index) => (
-            <button
-              className={`client-testimonials__dot${
-                index === activeSlide ? " is-active" : ""
-              }`}
-              type="button"
-              onClick={() => setActiveSlide(index)}
-              aria-label={`Show testimonial slide ${index + 1}`}
-              aria-current={index === activeSlide ? "true" : undefined}
-              key={slide[0]?.id ?? index}
-            />
-          ))}
-        </div>
+        
+          <div
+            className="client-testimonials__tracker d-flex justify-content-center"
+            aria-label="Choose testimonial slide"
+          >
+            {slides.map((slide, index) => (
+              <button
+                className={`client-testimonials__dot${
+                  index === activeSlide ? " is-active" : ""
+                }`}
+                type="button"
+                onClick={() => setActiveSlide(index)}
+                aria-label={`Show testimonial slide ${index + 1}`}
+                aria-current={index === activeSlide ? "true" : undefined}
+                key={slide[0]?.id ?? index}
+              />
+            ))}
+          </div>
+         
       </div>
     </section>
   );

@@ -1,0 +1,61 @@
+/* Shared, scoped styles for the checkout, editorial and information pages. */
+.shopery-content-page { font-family: var(--font-wishlist); }
+.shopery-content-page .form-control,
+.shopery-content-page .form-select {
+  min-height: var(--form-control-height);
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-md);
+  color: var(--color-text-strong);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-body);
+  background-color: var(--color-bg-page);
+}
+.shopery-content-page .form-control::placeholder { color: var(--gray-400); opacity: 1; }
+.shopery-content-page .form-control:focus,
+.shopery-content-page .form-select:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+.shopery-content-page .form-label {
+  margin-bottom: var(--space-2);
+  color: var(--color-text-strong);
+  font-size: var(--font-size-sm);
+}
+.shopery-content-page textarea.form-control { min-height: var(--space-25); resize: vertical; }
+.shopery-content-page .form-check { display: flex; align-items: baseline; gap: var(--space-2); padding-left: 0; }
+.shopery-content-page .form-check-input {
+  float: none;
+  width: var(--space-5);
+  height: var(--space-5);
+  margin-left: 0;
+  flex-shrink: 0;
+  border-color: var(--color-border-default);
+  box-shadow: none;
+}
+.shopery-content-page .form-check-input:checked { background-color: var(--color-primary); border-color: var(--color-primary); }
+.shopery-content-page .form-check-input:focus-visible { outline: 2px solid var(--color-primary); outline-offset: var(--space-1); }
+.shopery-content-page .form-check-label { color: var(--color-text-muted); font-size: var(--font-size-sm); }
+.shopery-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  min-height: var(--button-height-lg);
+  padding: var(--space-3) var(--space-10);
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-body);
+}
+.shopery-button:hover { background-color: var(--color-primary-hover); color: var(--color-text-inverse); }
+.shopery-button:focus-visible { outline: 2px solid var(--color-primary-hover); outline-offset: var(--space-1); }
+.shopery-button svg { width: var(--space-5); height: var(--space-5); }
+.shopery-button--outline { background: var(--color-bg-page); color: var(--color-primary); border-color: var(--color-primary); }
+.shopery-form-status { margin-top: var(--space-4); font-size: var(--font-size-sm); color: var(--color-text-muted); }
+@media (min-width: 1400px) {
+  .shopery-content-page .container { padding-inline: 0; }
+}

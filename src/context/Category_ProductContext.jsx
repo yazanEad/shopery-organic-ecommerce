@@ -55,7 +55,16 @@ export default function Category_ProductContext({children}){
     dataCategory();
   }, []);
 
-  let [cartItems, setCartItems] = useState([]);
+  // Add to Cart
+
+  let [cartItems, setCartItems] = useState(()=>{
+    let saved = localStorage.getItem("cartItems");
+    return saved ? JSON.parse(saved) : [];
+  });
+
+  useEffect(() => {
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+  }, [cartItems])
 
   function handleAddToCart(product, count = 1) {
     setCartItems((prevItems) => {
@@ -111,29 +120,32 @@ export default function Category_ProductContext({children}){
 
   // Add to favorites
 
-  let [favoriteProducts, setFavoriteProducts] = useState([]);
-
-  
-function toggleFavorite(itemProductId) {
-  setFavoriteProducts((prevFavorites) => {
-    if (prevFavorites.includes(itemProductId)) {
-      return prevFavorites.filter((id) => id !== itemProductId);
-    } else {
-      return [...prevFavorites, itemProductId];
-    }
+  let [favoriteProducts, setFavoriteProducts] = useState(() => {
+    const saved = localStorage.getItem("favoriteProducts");
+    return saved ? JSON.parse(saved) : [];
   });
-}
 
-function RemoveFromFavorites(itemProductId) {
-  setFavoriteProducts(favoriteProducts.filter((id)=> id !== itemProductId));
-}
-const wishlistProducts = products.filter((product) =>
-  favoriteProducts.includes(product.id),
-);
-console.log(favoriteProducts);
+  useEffect(() => {
+    localStorage.setItem("favoriteProducts", JSON.stringify(favoriteProducts));
+  }, [favoriteProducts]);
 
+  function toggleFavorite(itemProductId) {
+    setFavoriteProducts((prevFavorites) => {
+      if (prevFavorites.includes(itemProductId)) {
+        return prevFavorites.filter((id) => id !== itemProductId);
+      } else {
+        return [...prevFavorites, itemProductId];
+      }
+    });
+  }
 
-  
+  function RemoveFromFavorites(itemProductId) {
+    setFavoriteProducts(favoriteProducts.filter((id) => id !== itemProductId));
+  }
+  const wishlistProducts = products.filter((product) =>
+    favoriteProducts.includes(product.id),
+  );
+  // console.log(favoriteProducts);
 
   return (
     <>

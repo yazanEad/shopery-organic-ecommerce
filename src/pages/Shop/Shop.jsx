@@ -8,17 +8,22 @@ import {
 } from "../../data/mockShopFilters";
 import ProductShowcase from "../../Components/ProductShowcase/ProductShowcase";
 import "./Shop.css";
+import { Link, useSearchParams } from "react-router-dom";
 
 function Shop() {
+
+
   let { products } = useContext(Category_Product_Context);
   // console.log(products);
 
+  let [params] = useSearchParams();
+
+  // console.log(params.getAll("rating"));
+
+
+
+  let reviewRating = mockShopFiltersData.ratings
   const [isFiltersOpen, setIsFiltersOpen] = useState(false);
-
-  let [filters, setfilters] = useState({ category: "", rating: [] });
-
-  let [reviewRating, setReviewRating] = useState(mockShopFiltersData.ratings);
-
 
 
   function openFilters() {
@@ -32,43 +37,20 @@ function Shop() {
   }
 
 
-  function handelRating(ratingValue, e) {
 
-    setReviewRating(
-      reviewRating.map((rating) =>
-        rating.value === ratingValue
-          ? { ...rating, selected: e.target.checked }
-          : rating,
-      ),
-    );
-    // اذا كان الزر محددًا، أضف قيمة التقييم إلى مصفوفة التقييمات المحددة، وإلا قم بإزالة القيمة من المصفوفة. 
-    if (e.target.checked) {
-      setfilters({
-        ...filters,
-        rating: [...filters.rating, ratingValue],
-      });
-    } else {
-      setfilters({
-        ...filters,
-        rating: [...filters.rating.filter((r) => r !== ratingValue)],
-      });
-    }
- 
-  }
+const category = params.get("category");
+const ratings = params.getAll("rating");
 
-  // Math.floor(prod.rating)
-  
-let filtersProducts = products.filter(prod =>{
-  // اضهار جميع المنتجات اذا لم يتم اختيار اي تصنيف
-  if (filters.category === "") {
-    return true
-  }
-  // اضهار المنتجات التي تطابق التصنيف المحدد والتصنيف المحدد
-    return prod.category === filters.category && filters.rating.length === 0
-      ? true
-      : filters.rating.includes(Math.floor(prod.rating)) &&
-          prod.category === filters.category;
-})
+const filtersProducts = products.filter((prod) => {
+  const matchesCategory = !category || prod.category === category;
+
+  const matchesRating =
+    ratings.length === 0 ||
+    ratings.some((rating) => prod.rating >= Number(rating));
+
+  return matchesCategory && matchesRating;
+});
+
 
 
 //  console.log(filtersProducts);
@@ -79,9 +61,8 @@ let filtersProducts = products.filter(prod =>{
       <div className="container">
         <ShopToolbar
           {...mockShopToolbarData}
-          filterPanelId="shop-filters-panel"
-          isFilterOpen={isFiltersOpen}
           onFilterClick={openFilters}
+          NumberResults={filtersProducts.length}
         />
 
         <div className="row gx-2 mt-4">
@@ -113,19 +94,37 @@ let filtersProducts = products.filter(prod =>{
 
               <div className="offcanvas-body">
                 <ShopFilters
-                  filters={filters}
-                  setfilters={setfilters}
                   reviewRating={reviewRating}
-                  handelRating={handelRating}
                   {...mockShopFiltersData}
                 />
               </div>
             </div>
           </div>
+
           <div className="col-12 col-lg-9">
-            <ProductShowcase
-              productShow={filtersProducts}
-            />
+            {(category || ratings >= 0) && (
+              <div className=" shop-page__active-filter d-flex flex-wrap justify-content-between gap-2">
+                <div className="d-flex flex-wrap gap-2">
+                  {params.get("category") && (
+                    <span className="border rounded-pill px-3 py-1">
+                      {params.get("category")}
+                    </span>
+                  )}
+
+                  {ratings.map((rating) => (
+                    <span
+                      key={rating}
+                      className="border rounded-pill px-3 py-1"
+                    >
+                      rating: {rating}/5
+                    </span>
+                  ))}
+                </div>
+                <Link to="/shop">Clear filters</Link>
+              </div>
+            )}
+
+            <ProductShowcase productShow={filtersProducts} />
           </div>
         </div>
       </div>

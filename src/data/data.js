@@ -34,6 +34,8 @@ import {
   PiCreditCard,
   PiLockKey,
   PiLeaf,
+  PiPlayFill,
+  PiLinkSimple,
 } from "react-icons/pi";
 
 import {
@@ -96,6 +98,8 @@ export const shoperyIcons = {
   // Blog / News
   calendar: PiCalendarBlank,
   comment: PiChatCircleText,
+  play: PiPlayFill,
+  link: PiLinkSimple,
 
   // Testimonials
   quote: PiQuotes,

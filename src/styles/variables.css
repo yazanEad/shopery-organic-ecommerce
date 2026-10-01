@@ -139,4 +139,35 @@
   --wishlist-cart-width: 146px;
   --wishlist-social-gap: 5px;
   --wishlist-header-tracking: 0.03em;
+
+  /* Checkout, blog and information pages — local Figma reference */
+  --page-breadcrumb-height: 120px;
+  --form-control-height: 49px;
+  --shadow-contact-card: 0 0 56px rgb(0 38 3 / 8%);
+  --blog-image-ratio: 424 / 324;
+  --blog-date-size: 58px;
+  --color-blog-date: rgb(255 255 255 / 85%);
+  --blog-article-ratio: 872 / 600;
+  --blog-content-image-ratio: 424 / 356;
+  --article-author-size: 50px;
+  --article-promo-height: 250px;
+  --article-discount-size: 91px;
+  --blog-recent-image-width: 100px;
+  --blog-recent-image-height: 77px;
+  --about-hero-ratio: 716 / 492;
+  --about-team-ratio: 312 / 280;
+  --about-feature-height: 685px;
+  --about-farmer-ratio: 1217 / 1189;
+  --about-heading-width: 607px;
+  --about-copy-width: 590px;
+  --about-team-copy-width: 640px;
+  --about-hero-width: 716px;
+  --about-delivery-copy-width: 581px;
+  --about-delivery-image-width: 895px;
+  --about-team-overlay: rgb(0 38 3 / 60%);
+  --about-feature-gradient: linear-gradient(180deg, #fafafa, var(--color-bg-page));
+  --about-landscape-fade: linear-gradient(269deg, var(--color-bg-page) 18.88%, transparent 86.37%);
+  --about-team-gradient: linear-gradient(180deg, var(--color-bg-muted), var(--color-bg-page));
+  --contact-map-height: 400px;
+  --contact-intro-width: 486px;
 }
