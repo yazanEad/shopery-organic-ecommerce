@@ -1,5 +1,4 @@
 export const mockShopToolbarData = {
-  resultCount: 52,
   defaultSort: "latest",
   sortOptions: [
     { value: "latest", label: "Latest" },

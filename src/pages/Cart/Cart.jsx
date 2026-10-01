@@ -128,7 +128,8 @@ function Cart() {
                             data-label="Subtotal"
                           >
                             {currencyFormatter.format(
-                              handleDiscountPercentage(item) * item.quantity)}
+                              handleDiscountPercentage(item) * item.quantity,
+                            )}
                           </td>
                           <td className="cart-table__remove-cell">
                             <button
@@ -198,9 +199,11 @@ function Cart() {
                   <dd>{temporaryCartSummary.total}</dd>
                 </div>
               </dl>
-              <button className="cart-summary__checkout w-100" type="button">
-                Proceed to checkout
-              </button>
+              <Link to="/checkout" >
+                <button className="cart-summary__checkout w-100" type="button">
+                  Proceed to checkout
+                </button>
+              </Link>
             </aside>
           </div>
         </div>

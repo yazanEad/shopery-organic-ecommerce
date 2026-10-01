@@ -1,0 +1,67 @@
+.about-page { overflow: clip; }
+.about-intro { padding-block: var(--space-20); }
+.about-intro h1 { max-width: var(--about-heading-width); line-height: var(--line-height-tight); margin-bottom: var(--space-8); }
+.about-intro p { max-width: var(--about-copy-width); font-size: var(--font-size-lg); }
+.about-intro__image { width: 100%; aspect-ratio: var(--about-hero-ratio); object-fit: cover; border-radius: var(--radius-lg); }
+.about-features { position: relative; min-height: var(--about-feature-height); background: var(--about-feature-gradient); border-bottom: 1px solid var(--color-border-light); }
+.about-features__landscape { position: absolute; inset: 0 auto 0 0; width: 58.8%; background: var(--about-landscape-fade), url('/images/wheat-field-sunset-large.jpg') center / cover; }
+.about-features__farmer { position: absolute; left: 10.15%; bottom: 0; width: 38.8%; height: var(--about-feature-height); object-fit: cover; }
+.about-features__copy { position: relative; padding-block: var(--space-20); }
+.about-features h2 { color: var(--green-gray-900); font-size: var(--font-size-h1); line-height: var(--line-height-tight); }
+.about-features__copy > p { margin-top: var(--space-5); margin-bottom: var(--space-6); max-width: var(--about-copy-width); color: var(--color-text-subtle); }
+.about-feature { gap: var(--space-4); }
+.about-feature__icon { width: var(--space-18); height: var(--space-18); flex-shrink: 0; display: grid; place-items: center; border-radius: var(--radius-circle); background: var(--color-primary-light); color: var(--color-primary); }
+.about-feature__icon svg { width: var(--space-10); height: var(--space-10); }
+.about-feature h3 { font-size: var(--font-size-lg); font-weight: var(--font-weight-medium); line-height: var(--line-height-body); margin-bottom: var(--space-2); }
+.about-feature p { font-size: var(--font-size-sm); color: var(--gray-400); }
+.about-delivery { padding-top: var(--space-20); }
+.about-delivery h2 { font-size: var(--font-size-h2); line-height: var(--line-height-tight); margin-bottom: var(--space-6); }
+.about-delivery__copy > p { margin-bottom: var(--space-5); }
+.about-delivery ul { display: flex; flex-direction: column; gap: var(--space-4); margin-bottom: var(--space-8); }
+.about-delivery li { gap: var(--space-2); font-size: var(--font-size-sm); color: var(--color-text-muted); }
+.about-delivery li svg { flex-shrink: 0; width: var(--space-5); height: var(--space-5); color: var(--color-primary); background: var(--color-primary-light); border-radius: var(--radius-circle); }
+.about-delivery__visual { position: relative; aspect-ratio: 895 / 606; overflow: hidden; }
+.about-delivery__visual img { position: absolute; top: 0; left: 0; width: 100%; max-width: none; height: auto; }
+.about-team { background: var(--about-team-gradient); padding-block: var(--space-20); }
+.about-team__heading { max-width: var(--about-team-copy-width); margin: 0 auto var(--space-12); }
+.about-team__heading h2 { font-size: var(--font-size-h2); margin-bottom: var(--space-3); }
+.about-team__track { gap: var(--space-6); overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding-bottom: var(--space-4); }
+.about-team__track::-webkit-scrollbar { display: none; }
+.about-team__card { flex: 0 0 calc((100% - var(--space-6) * 3) / 4); min-width: 0; scroll-snap-align: start; border: 1px solid var(--color-border-light); border-radius: var(--radius-lg); overflow: hidden; }
+.about-team__photo { position: relative; aspect-ratio: var(--about-team-ratio); overflow: hidden; }
+.about-team__photo > img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; }
+.about-team__card:nth-child(2) .about-team__photo > img { width: 149.54%; height: 249.61%; left: -24.77%; top: -19.68%; }
+.about-team__card:nth-child(3) .about-team__photo > img { width: 227.73%; height: 169.25%; left: -114.19%; top: -13.54%; }
+.about-team__card:nth-child(4) .about-team__photo > img { width: 216.17%; height: 160.66%; left: -50.58%; top: -16.74%; }
+.about-team__social { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: var(--about-team-overlay); opacity: 0; transition: opacity 160ms ease; }
+.about-team__social .social-buttons button { color: var(--color-text-inverse); }
+.about-team__card:hover, .about-team__card:focus-within { box-shadow: var(--shadow-md); }
+.about-team__card:hover .about-team__social, .about-team__card:focus-within .about-team__social { opacity: 1; }
+.about-team__info { padding: var(--space-4) var(--space-5) var(--space-5); }
+.about-team__info h3 { font-size: var(--font-size-lg); font-weight: var(--font-weight-medium); margin-bottom: var(--space-1); }
+.about-team__info p { font-size: var(--font-size-sm); color: var(--color-text-subtle); }
+.about-team__controls { margin-top: var(--space-4); }
+.about-team__arrow { width: var(--button-height-md); height: var(--button-height-md); display: grid; place-items: center; border-radius: var(--radius-circle); background: var(--color-bg-page); border: 1px solid var(--color-border-light); }
+.about-team__arrow:hover, .about-team__arrow:focus-visible { background: var(--color-primary); color: var(--color-text-inverse); }
+.about-page .client-testimonials { background: var(--color-bg-muted); }
+.about-page .client-testimonials__header { min-height: 0; }
+.about-page .client-testimonials__title { font-size: var(--font-size-h2); }
+.about-page .company-logos__inner { padding-block: var(--space-20); }
+@media (min-width: 1400px) {
+  .about-intro .row { --bs-gutter-x: 0; }
+  .about-intro__copy { width: calc(50% - var(--space-3)); }
+  .about-intro__image { width: var(--about-hero-width); max-width: none; }
+  .about-delivery__copy { width: var(--about-delivery-copy-width); }
+  .about-delivery .col-lg-7 { flex: 1; min-width: 0; }
+  .about-delivery__visual { width: var(--about-delivery-image-width); }
+}
+@media (min-width: 1600px) {
+  .about-team__controls { margin: 0; }
+  .about-team__arrow { position: absolute; top: 60%; }
+  .about-team__arrow--previous { left: calc(-1 * (var(--button-height-md) + var(--space-8))); }
+  .about-team__arrow--next { right: calc(-1 * (var(--button-height-md) + var(--space-8))); }
+}
+@media (min-width: 992px) and (max-width: 1399.98px) { .about-features h2, .about-intro h1 { font-size: var(--font-size-h3); } .about-feature { gap: var(--space-2); } .about-feature__icon { width: var(--space-12); height: var(--space-12); } .about-feature__icon svg { width: var(--space-6); height: var(--space-6); } .about-feature h3 { font-size: var(--font-size-md); } .about-delivery h2 { font-size: var(--font-size-h3); } }
+@media (max-width: 991.98px) { .about-features__farmer { position: relative; left: auto; width: 100%; height: auto; max-height: var(--about-feature-height); object-fit: contain; } .about-features__landscape { width: 100%; height: auto; bottom: auto; aspect-ratio: var(--about-farmer-ratio); max-height: var(--about-feature-height); } .about-features__copy { padding-block: var(--space-12); } .about-team__card { flex-basis: calc((100% - var(--space-6)) / 2); } .about-delivery__visual { max-width: 100%; } }
+@media (max-width: 575.98px) { .about-intro, .about-team { padding-block: var(--space-12); } .about-intro h1, .about-features h2 { font-size: var(--font-size-h4); } .about-delivery h2, .about-team__heading h2, .about-page .client-testimonials__title { font-size: var(--font-size-h5); } .about-intro p { font-size: var(--font-size-md); } .about-delivery { padding-top: var(--space-12); } .about-team__card { flex-basis: 100%; } .about-page .client-testimonials__title { font-size: var(--font-size-h6); } }
+@media (prefers-reduced-motion: reduce) { .about-team__social { transition: none; } }

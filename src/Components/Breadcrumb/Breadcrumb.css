@@ -1,0 +1,18 @@
+.page-breadcrumb {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  min-height: var(--page-breadcrumb-height);
+  padding-block: var(--space-6);
+  color: var(--gray-400);
+  font-size: var(--font-size-md);
+}
+.page-breadcrumb::before, .page-breadcrumb::after { content: ""; position: absolute; inset: 0; z-index: -1; }
+.page-breadcrumb::before { background: url("/images/wishlist-breadcrumb.jpg") center / cover; transform: scaleX(-1); }
+.page-breadcrumb::after { background: var(--wishlist-breadcrumb-overlay); }
+.page-breadcrumb ol { margin-bottom: 0; }
+.page-breadcrumb svg { width: var(--space-5); height: var(--space-5); flex-shrink: 0; }
+.page-breadcrumb li > svg { width: var(--space-3); height: var(--space-3); }
+.page-breadcrumb [aria-current="page"], .page-breadcrumb a:hover { color: var(--color-primary); }
+.page-breadcrumb a:focus-visible { outline: 2px solid var(--color-primary-soft); outline-offset: var(--space-1); }

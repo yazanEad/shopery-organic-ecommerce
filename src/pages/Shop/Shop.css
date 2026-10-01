@@ -25,6 +25,9 @@
   border: 0;
 }
 
+.shop-page__active-filter { font-size: var(--font-size-sm); margin-bottom: var(--space-5); }
+.shop-page__active-filter a { color: var(--color-primary-hover); text-decoration: underline; }
+
 @media (min-width: 992px) {
   .shop-filters-panel {
     background-color: transparent;

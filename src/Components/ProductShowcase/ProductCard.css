@@ -62,7 +62,8 @@
 }
 
 .product-card:hover .product-card__actions,
-.product-card:focus-within .product-card__actions {
+.product-card:focus-within .product-card__actions,
+.product-card .product-card__actions.active {
   opacity: 1;
   pointer-events: auto;
   transform: translateX(0);
@@ -84,13 +85,15 @@
   background: var(--color-bg-page);
   color: var(--color-text-strong);
 }
-
+/* ,,,, */
 .product-card__action:hover,
-.product-card__action:focus-visible {
+.product-card__action:focus-visible ,
+.product-card__action.active{
   border-color: var(--color-primary);
   background: var(--color-primary-light);
   color: var(--color-primary);
 }
+
 
 .product-card__action svg {
   width: 20px;

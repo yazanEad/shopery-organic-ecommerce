@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { shoperyIcons } from "../../data/data";
+import { primaryEmail, primaryPhone } from "../../data/contactData";
 import "./Footer.css";
 import Newsletter from "./Newslette"
 const footerLinkGroups = [
@@ -134,9 +135,9 @@ const SecureCheckoutIcon = shoperyIcons.secureCheckout;
                 turpis dui, eget bibendum magna congue nec.
               </p>
               <address className="footer__contact d-flex flex-wrap align-items-center">
-                <a href="tel:+12195550114">(219) 555-0114</a>
+                <a href={primaryPhone.href}>{primaryPhone.label}</a>
                 <span className="footer__contact-separator">or</span>
-                <a href="mailto:Proxy@gmail.com">Proxy@gmail.com</a>
+                <a href={primaryEmail.href}>{primaryEmail.label}</a>
               </address>
             </section>
 

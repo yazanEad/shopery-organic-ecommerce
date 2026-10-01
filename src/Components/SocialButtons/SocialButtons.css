@@ -1,0 +1,5 @@
+.social-buttons { gap: var(--space-1); }
+.social-buttons button { display: inline-flex; justify-content: center; align-items: center; width: var(--button-height-sm); height: var(--button-height-sm); padding: var(--space-3); border-radius: var(--radius-circle); color: var(--gray-700); background: transparent; }
+.social-buttons button:hover, .social-buttons button:focus-visible { background: var(--color-primary); color: var(--color-text-inverse); }
+.social-buttons button:focus-visible { outline: 2px solid var(--color-primary-hover); outline-offset: var(--space-1); }
+.social-buttons svg { width: var(--space-4); height: var(--space-4); }

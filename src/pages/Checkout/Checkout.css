@@ -1,0 +1,25 @@
+.checkout-page__content { padding-block: var(--space-8) var(--space-20); }
+.checkout-page__heading { font-size: var(--font-size-h6); font-weight: var(--font-weight-medium); line-height: var(--line-height-body); margin-bottom: var(--space-5); }
+.checkout-page__ship-toggle { margin-top: var(--space-5); }
+.checkout-page__shipping { margin-top: var(--space-8); }
+.checkout-page__additional { margin-top: var(--space-8); padding-top: var(--space-8); border-top: 1px solid var(--color-border-light); }
+.checkout-summary { padding: var(--space-6); border: 1px solid var(--color-border-light); border-radius: var(--radius-lg); }
+.checkout-summary h2, .checkout-summary legend { font-size: var(--font-size-xl); font-weight: var(--font-weight-medium); line-height: var(--line-height-body); }
+.checkout-summary__products { margin-block: var(--space-3); }
+.checkout-summary__products li { gap: var(--space-2); font-size: var(--font-size-sm); }
+.checkout-summary__products img { width: var(--space-15); height: var(--space-15); object-fit: contain; flex-shrink: 0; }
+.checkout-summary__products strong { font-weight: var(--font-weight-medium); }
+.checkout-summary__product-name { color: var(--color-text-strong); }
+.checkout-summary__totals { margin: 0; font-size: var(--font-size-sm); }
+.checkout-summary__totals > div { display: flex; align-items: center; justify-content: space-between; padding-block: var(--space-3); border-bottom: 1px solid var(--color-border-light); }
+.checkout-summary__totals dt { font-weight: var(--font-weight-regular); color: var(--color-text-muted); }
+.checkout-summary__totals dd { margin: 0; color: var(--color-text-strong); font-weight: var(--font-weight-medium); }
+.checkout-summary__totals .checkout-summary__total { border: 0; padding-bottom: 0; font-size: var(--font-size-md); }
+.checkout-summary__total dd { font-size: var(--font-size-lg); font-weight: var(--font-weight-semibold); }
+.checkout-summary__payment { margin-block: var(--space-6); }
+.checkout-summary__payment legend { margin-bottom: var(--space-4); }
+.checkout-summary__payment .form-check { margin-bottom: var(--space-2); }
+@media (max-width: 575.98px) {
+  .checkout-page__content { padding-block: var(--space-8) var(--space-12); }
+  .checkout-summary { padding: var(--space-5); }
+}

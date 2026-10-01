@@ -35,7 +35,9 @@ function ProductDetails() {
   let { productId } = useParams();
   let [img, setImg] = useState(null);
   let [imgIndex, setImgIndex] = useState(0);
-let {handleAddToCart} = useContext(Category_Product_Context);
+let { handleAddToCart, isProductInCart, favoriteProducts, toggleFavorite } = useContext(
+  Category_Product_Context,
+);
 
 let [cartCount, setCartCount] = useState(1);
 
@@ -260,19 +262,29 @@ const relatedProducts = products
                   onClick={(e) => {
                     e.preventDefault();
                     e.stopPropagation();
-                    
+
                     handleAddToCart(productDetails, cartCount);
                   }}
                   // disabled={handleClick(productDetails) ? true : false}
                 >
-                  <span>Add to Cart</span>
+                  <span>
+                    {isProductInCart(productDetails.id)
+                      ? "Add More to Cart"
+                      : "Add to Cart"}
+                  </span>
                   <CartIcon aria-hidden="true" />
                 </button>
 
                 <button
-                  className="product-info__wishlist d-inline-flex align-items-center justify-content-center"
+                  className={`product-info__wishlist d-inline-flex align-items-center justify-content-center ${
+                    favoriteProducts.includes(productDetails.id)
+                      ? "is-favorite"
+                      : ""
+                  }`}
                   type="button"
-                  aria-label={`Add ${productDetails.title} to wishlist`}
+                  onClick={()=>{
+                    toggleFavorite(productDetails.id)
+                  }}
                 >
                   <WishlistIcon aria-hidden="true" />
                 </button>

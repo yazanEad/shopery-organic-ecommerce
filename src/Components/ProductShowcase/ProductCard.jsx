@@ -11,9 +11,8 @@ const formatPrice = (value) => {
 
 function ProductCard({product}) {
   // console.log(product.id)
- let { handleAddToCart, isProductInCart } = useContext(
-   Category_Product_Context,
- );
+ let { handleAddToCart, isProductInCart, favoriteProducts, toggleFavorite } =
+   useContext(Category_Product_Context);
 
 
 
@@ -40,12 +39,7 @@ const discountedPrice = price - price * (discountPercentage / 100);
   const isInCart = isProductInCart(id);
   const navigate = useNavigate();
 
- console.log(isProductInCart(product.id));
-// let buttonAddToCarr = null
-// if (isProductInCart(product.id)){
-//   buttonAddToCarr = <h1>Aheme</h1>
-// }
-// console.log(buttonAddToCarr);
+
   return (
     <Link to={`/shop/${id}`} className="product-card__link">
       <article className="product-card h-100">
@@ -66,16 +60,20 @@ const discountedPrice = price - price * (discountPercentage / 100);
           />
 
           <div
-            className="product-card__actions"
+            className={`product-card__actions ${favoriteProducts.includes(id) ? "active" : ""}`}
             onClick={(e) => {
               e.preventDefault();
               e.stopPropagation();
             }}
           >
+            {/*   `${favoriteProducts.includes(product.id) ? "active" : 'Add to'} wishlist` */}
             <button
-              className="product-card__action"
+              className={`product-card__action ${favoriteProducts.includes(id) ? "active" : ""}`}
               type="button"
               // aria-label={`Add ${title} to wishlist`}
+              onClick={() => {
+                toggleFavorite(id);
+              }}
             >
               <WishlistIcon aria-hidden="true" />
             </button>
@@ -86,7 +84,6 @@ const discountedPrice = price - price * (discountPercentage / 100);
             >
               <QuickViewIcon aria-hidden="true" />
             </button>
-            <button className="product-card__action"> ok</button>
           </div>
         </div>
 
@@ -149,7 +146,6 @@ const discountedPrice = price - price * (discountPercentage / 100);
               // is-active
               className="product-card__cart"
               type="button"
-              // aria-label={`Add ${title} to cart`}
               onClick={(e) => {
                 e.preventDefault();
                 e.stopPropagation();

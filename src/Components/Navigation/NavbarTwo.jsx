@@ -16,7 +16,6 @@ function NavbarTwo() {
   const PhoneIcon = shoperyIcons.phone;
 
 
-
    
 
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -32,7 +31,7 @@ function NavbarTwo() {
     { name: "Contact Us", href: "/contact-us" },
   ];
 
-   let { cartItems } = useContext(Category_Product_Context);
+   let { cartItems, favoriteProducts } = useContext(Category_Product_Context);
 
   return (
     <nav className="navbar-two" aria-label="Main navigation">
@@ -70,8 +69,11 @@ function NavbarTwo() {
                 type="button"
                 aria-label="Wishlist"
               >
+                {/*  asdasDASDsaSAdasDSA */}
                 <WishlistIcon aria-hidden="true" />
-                <span className="navbar-two__badge">2</span>
+                <span className="navbar-two__badge">
+                  {favoriteProducts ? favoriteProducts.length : 0}
+                </span>
               </button>
             </Link>
             <button
@@ -89,7 +91,9 @@ function NavbarTwo() {
                 aria-label="Shopping cart"
               >
                 <CartIcon aria-hidden="true" />
-                <span className="navbar-two__badge">{cartItems.length}</span>
+                <span className="navbar-two__badge">
+                  {cartItems ? cartItems.length : 0}
+                </span>
               </button>
             </Link>
             <div className="navbar-two__cart-total d-none d-sm-block">

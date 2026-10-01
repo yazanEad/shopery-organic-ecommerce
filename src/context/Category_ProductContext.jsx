@@ -5,15 +5,11 @@ import { Category_Product_Context } from "./Context";
 
 
 export default function Category_ProductContext({children}){
-
-
   let [products, setProducts] = useState([]);
   let [loading, setLoading] = useState(true);
   let [error, setError] = useState(false);
 
   useEffect(() => {
-
-
     async function fetchProdect() {
       try {
         let response = await fetch("http://localhost:3000/products");
@@ -33,7 +29,6 @@ export default function Category_ProductContext({children}){
     fetchProdect();
   }, []);
 
-  
   let [categorys, setCategorys] = useState([]);
   let [loadingCategory, setLoadingCategory] = useState(true);
   let [errorCategory, setErrorCategory] = useState(false);
@@ -60,18 +55,23 @@ export default function Category_ProductContext({children}){
     dataCategory();
   }, []);
 
+  // Add to Cart
 
-  
+  let [cartItems, setCartItems] = useState(()=>{
+    let saved = localStorage.getItem("cartItems");
+    return saved ? JSON.parse(saved) : [];
+  });
 
-  // add to cart functionality
-  let [cartItems, setCartItems] = useState([]);
-  
+  useEffect(() => {
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+  }, [cartItems])
+
   function handleAddToCart(product, count = 1) {
     setCartItems((prevItems) => {
       let existingItem = prevItems.find((item) => item.id === product.id);
-     
+
       if (existingItem) {
-        return cartItems.map((item) => {
+        return prevItems.map((item) => {
           // if (item.id === product.id) {
           //   return { ...item, quantity: item.quantity + count };
           // } else {
@@ -79,14 +79,13 @@ export default function Category_ProductContext({children}){
           // }
           return item.id === product.id
             ? { ...item, quantity: item.quantity + count }
-            : item; 
+            : item;
         });
       }
 
-        return [...prevItems, { ...product, quantity: count }];
+      return [...prevItems, { ...product, quantity: count }];
     });
   }
-
 
   function isProductInCart(productId) {
     return cartItems.some((item) => item.id === productId);
@@ -105,17 +104,48 @@ export default function Category_ProductContext({children}){
     setCartItems(
       cartItems.map((product) => {
         return product.id === item.id
-          ? { ...item, quantity: item.quantity > 1 ?item.quantity - 1 : 1 }
+          ? { ...item, quantity: item.quantity > 1 ? item.quantity - 1 : 1 }
           : product;
       }),
     );
   }
 
   function RemoveProductFromCart(product) {
-    setCartItems(cartItems.filter((item)=>{
-      return item.id !== product.id;
-    }));
+    setCartItems(
+      cartItems.filter((item) => {
+        return item.id !== product.id;
+      }),
+    );
   }
+
+  // Add to favorites
+
+  let [favoriteProducts, setFavoriteProducts] = useState(() => {
+    const saved = localStorage.getItem("favoriteProducts");
+    return saved ? JSON.parse(saved) : [];
+  });
+
+  useEffect(() => {
+    localStorage.setItem("favoriteProducts", JSON.stringify(favoriteProducts));
+  }, [favoriteProducts]);
+
+  function toggleFavorite(itemProductId) {
+    setFavoriteProducts((prevFavorites) => {
+      if (prevFavorites.includes(itemProductId)) {
+        return prevFavorites.filter((id) => id !== itemProductId);
+      } else {
+        return [...prevFavorites, itemProductId];
+      }
+    });
+  }
+
+  function RemoveFromFavorites(itemProductId) {
+    setFavoriteProducts(favoriteProducts.filter((id) => id !== itemProductId));
+  }
+  const wishlistProducts = products.filter((product) =>
+    favoriteProducts.includes(product.id),
+  );
+  // console.log(favoriteProducts);
 
   return (
     <>
@@ -134,6 +164,10 @@ export default function Category_ProductContext({children}){
           IncreaseQuantity,
           DecreaseQuantity,
           RemoveProductFromCart,
+          favoriteProducts,
+          toggleFavorite,
+          RemoveFromFavorites,
+          wishlistProducts,
         }}
       >
         {children}
